@@ -1,0 +1,7 @@
+# Build binaries
+aether
+aether_test
+*.o
+
+# OS
+.DS_Store

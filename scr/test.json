@@ -1,0 +1,47 @@
+{
+  "body": [
+    {
+      "expression": {
+        "args": [
+          {
+            "name": "a",
+            "type": "identifier"
+          }
+        ],
+        "callee": "jk",
+        "type": "call"
+      },
+      "type": "expr_stmt"
+    },
+    {
+      "body": [
+        {
+          "expression": {
+            "name": "a",
+            "type": "identifier"
+          },
+          "type": "expr_stmt"
+        },
+        {
+          "body": [
+            {
+              "expression": {
+                "args": [],
+                "callee": "k",
+                "type": "call"
+              },
+              "type": "expr_stmt"
+            },
+            {
+              "body": [],
+              "type": "block"
+            }
+          ],
+          "type": "block"
+        }
+      ],
+      "type": "block"
+    }
+  ],
+  "type": "prg"
+}
